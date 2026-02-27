@@ -4,3 +4,15 @@ body {
     background-color: #a7c957;
     font-family: Arial, sans-serif;
 }
+/*selector de clase*/
+.class-selector {
+    color: #b688c8;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*selector por ID*/
+#id-selector {
+    color: #272727;
+    font-size: 35px;
+    font-style: italic;
+}
