@@ -16,3 +16,22 @@ body {
     font-size: 35px;
     font-style: italic;
 }
+/*combinacion de selectores*/
+#selectores_universal_combinaciones{
+    color: #386641;
+    font-size: 25px;
+}
+
+#selectores_universal_combinaciones p {
+    color: #af3131;
+    font-size: 23px;
+}
+#selectores_universal_combinaciones ul li strong {
+    color: #f60469;
+    font-size: 15px;
+}
+/*si tienes una coma no son selectores de combinacion,  es un selector multiple*/
+p, li {
+    color: #272727;
+    font-size: 20px;
+}
