@@ -35,3 +35,21 @@ p, li {
     color: #272727;
     font-size: 20px;
 }
+
+.display block {
+    margin: 10px 0 10px 0;
+    display: block;
+  background-color: #b688c8;
+  
+}
+.display inline {
+    margin: 25px 0 10px;
+    display: inline;
+    background-color: aqua;
+    
+}
+.display inline-block {
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    background-color: #f60469;
+}
