@@ -27,7 +27,8 @@
      <ul>
          <li><a href="#selector_basico">Selectores Basicos</a></li>
          <li><a href="#selectores_universal_combinaciones">Selectores Universal y Combinaciones</a></li>
-          <li><a href="#display_tipos_de_cajas"></a>Displyas y tipos de cajas</li>
+          <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
+          <li><a href="#pseudo_clase">Pseudo-clases</a></li>
      </ul>
      <section id="selector_basico">
           <h2>Selectores basicos</h2>
@@ -68,6 +69,20 @@
           <div class="display_inline-block_2">Este es un elemento de tipo inline-block</div>
           <div class="display_block">Este es un elemento de tipo block</div>
           
+     </section>
+     <section id="pseudo_clase">
+          <h2>Pseudo-clases</h2>
+          <p>Las pseudo-clases son selectores que permiten aplicar estilos a elementos en ciertos estados.</p>
+          <ul>
+               <li><strong>:hover</strong>: aplica estilos cuando el usuario pasa el cursor sobre un elemento.</li>
+               <li><strong>:focus</strong>: aplica estilos cuando un elemento tiene el foco (por ejemplo, un campo de entrada).</li>
+               <li><strong>:active</strong>: aplica estilos cuando un elemento está activo (por ejemplo, al hacer clic en un botón).</li>
+          </ul>
+          <h3>Ejemplos de uso:</h3>
+          <button class="pseudo_hover">ejemplo de pseudo-clase :hover</button>
+          <label for="input-focus">Etiqueta para campo de entrada</label>
+          <input type="text" id="input-focus" class="pseudo_focus" placeholder="ejemplo de pseudo-clase :focus">
+          <button class="pseudo_active">ejemplo de pseudo-clase :active</button>
      </section>
 
 </body>
