@@ -92,7 +92,7 @@ p, li {
     padding: 10px;
     border-radius: 5px;
     border: #452e3e solid 2px;
-    background-color: rgba(rgba(255, 0, 0, 0.518);
+    background-color: rgbargba(255, 0, 0, 0.518);
     
 }.pseudo_active:active {
     background-color: #8a5d81;
