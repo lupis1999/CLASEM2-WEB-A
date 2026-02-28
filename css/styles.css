@@ -132,6 +132,8 @@ h1 {
 /*las unidades de medida pueden ser absolutas o relativas, las absolutas son 
 px, cm, mm, in, pt y pc, mientras que las relativas son em, rem, %, vw y vh*/
 .card {
+    position: relative;/*permite posicionar elementos dentro de la card de forma absoluta*/
+    top: 10px;/*mueve la card 10px hacia abajo*/
     width: 600px;
     display: inline-block;
     background-color: #b1e6b0;
@@ -153,7 +155,7 @@ px, cm, mm, in, pt y pc, mientras que las relativas son em, rem, %, vw y vh*/
     padding: 10px;
 }
 .card_body h3 {
-    color: #272727;
+    color: #272727 !important;/*el !important hace que esta propiedad tenga prioridad sobre cualquier otra propiedad que se le asigne a este elemento*/
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -164,4 +166,27 @@ px, cm, mm, in, pt y pc, mientras que las relativas son em, rem, %, vw y vh*/
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
+}
+.letras-libreta-rayadas {
+    font-family: 'serin', cursive !important;
+   
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+.whatsapp_image {
+    width: 50px;
+    cursor: pointer;
+    
+}
+/*ejemplo de whatsapp-image sticky*/
+/*sticky es una posicion intermedia entre relative y fixed, se comporta como relative hasta que el elemento llega a un punto especifico en la pantalla, luego se comporta como fixed*/
+/*.whatsapp {
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+   
 }
