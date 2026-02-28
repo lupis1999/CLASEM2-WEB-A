@@ -99,3 +99,69 @@ p, li {
     border: #eb9eda solid 2px;
     
 }
+/*PROPIEDADES BASICAS DE TEXTO
+p{
+    text-align: justify;/* se alinea el textoi dependiendo del valor que se le asigne
+    text-decoration: underline;/*subraya el texto tambien `puede ser line-trough para tachar el texto o overline para poner una linea encima del texto
+    text-decoration: uppercase;/*transforma el texto a mayusculas tambien puede ser lowercase para minusculas o capitalize para poner la primera letra de cada palabra en mayuscula
+letter-spacing: 2px;/*espacio entre letras
+word-spacing: 10px;/*espacio entre palabras
+}*/
+/*propiedades basica de fuente*/
+h2 {
+    font-family: 'Courier New', Courier, monospace;/*cambia el tipo de letra*/
+    font-size: 30px;/*cambia el tamaño de la letra*/
+    font-weight: bold;/*cambia el grosor de la letra tambien puede ser normal o light*/
+    font-style: italic;/*cambia el estilo de la letra tambien puede ser normal o oblique*/
+}
+/*propiedades basicas de color*/
+div {
+    color: #272727;/*cambia el color del texto*/
+    background-color: #c8eebd;/*cambia el color de fondo del elemento*/
+}
+h1 {
+    color: #6a994e;
+    text-align: center;
+    font-weight: bold;
+}
+.card_image {
+    width: 50%;
+
+    border-radius: 15%;/*redondea las esquinas de la imagen*/
+}
+/*las unidades de medida pueden ser absolutas o relativas, las absolutas son 
+px, cm, mm, in, pt y pc, mientras que las relativas son em, rem, %, vw y vh*/
+.card {
+    width: 600px;
+    display: inline-block;
+    background-color: #b1e6b0;
+    border-radius: 15px;
+    margin: 10px ;/*centra la card horizontalmente*/
+    /*margenes que soloocupan una linea de codigo
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    margin-right: 60px;*/
+    /*marguen todo en una linea de codigo*/
+    /*margin: 15px 60px 30px 45px; */
+    /* margin: 15px 30px 45px 60px;margin: 15px 30px; si el margen superior e inferior son iguales y el margen izquierdo y derecho son iguales se puede escribir de esta forma*/
+    /*margin: 15px 60px;si todos los margenes son iguales se puede escribir de esta forma*/
+    padding: 15px;/*espacio entre el contenido de la card y el borde de la card*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);/*sombra de la card*/
+}
+.card_body {
+    padding: 10px;
+}
+.card_body h3 {
+    color: #272727;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.card_body p {
+    color: #272727;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
