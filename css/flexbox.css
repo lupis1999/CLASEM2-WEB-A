@@ -1,0 +1,29 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+body {
+    background-color: #e4c1f9;
+}
+h1 {
+    color: #f694c1;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-container {
+    
+    background-color: #fadaf5;
+    border: 2px solid #f1a6d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item {
+    background-color: #f7eea9;
+    margin: 8px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    ç
+}
