@@ -12,11 +12,10 @@ h1 {
     text-align: center;
 }
 .flex-container {
-    
-    background-color: #fadaf5;
+    background-color: #fdc8eb;
     border: 2px solid #f1a6d8;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
 }
@@ -25,5 +24,39 @@ h1 {
     margin: 8px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    ç
+    
+}
+
+.container{
+
+    border: 2px solid #fdc8eb;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    align-items: center;
+   
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.subcontainer2{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.pinterest{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
