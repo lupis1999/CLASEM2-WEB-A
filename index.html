@@ -6,6 +6,7 @@
     <title>Desarrollo de fundamentos web</title>
    <!--Forma 1 de agregar css-->
    <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/navbar.css">
    <!--Forma 2 de agregar css-->
     <style>
      h1 {
@@ -19,9 +20,33 @@
      }
     </style>
 </head>
+
 <body>
+
+<header>
+     <nav class="navbar">
+          <div class="logo">Dev.f</div>
+          <ul class="nav-links">
+               <li><a href="#selector_basico">Selectores Basicos</a></li>
+               <li><a href="#selectores_universal_combinaciones">Selectores Universal y Combinaciones</a></li>
+                <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
+                <li><a href="#pseudo_clase">Pseudo-clases</a></li>
+                <li><a href="#card">card</a></li>
+                <li><a href="#flexbox.html">Flexbox</a></li>
+          </ul>
+          <div class="hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+          </div>
+     </nav>
+</header>
+
+
     <h1 class="letras-libreta-rayadas">Desarrollo de fundamentos web</h1>
     <p>En este cursos, aprenderaste conceptos básicos de desarrollo web, incluyendo html css y javascripts</p>
+   
+   
     <!--Forma 3 de agregar css-->
     <h2 style="color:#6a994e; font-size: 50px;">Temas del Curso</h2>
      <ul>
@@ -29,8 +54,8 @@
          <li><a href="#selectores_universal_combinaciones">Selectores Universal y Combinaciones</a></li>
           <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
           <li><a href="#pseudo_clase">Pseudo-clases</a></li>
-          <li><a href="#card"></a>Cards</li>
-          <li><a href="#flexbox.html"></a>Flexbox</li>
+          <li><a href="#card">card</a></li>
+          <li><a href="#flexbox.html">Flexbox</a></li>
           <li><a href="#flexbox2.html"></a>Alinear y centrar en Flexbox</li>
      </ul>
      <section id="selector_basico">
@@ -87,7 +112,7 @@
           <input type="text" id="input-focus" class="pseudo_focus" placeholder="ejemplo de pseudo-clase :focus">
           <button class="pseudo_active">ejemplo de pseudo-clase :active</button>
      </section>
-     <section id="cards">
+     <section id="card">
           <h2>Cards</h2>
           <p>Los cards son elementos de diseño que contienen información y se utilizan comúnmente en interfaces de usuario.</p>
           <div class="card">

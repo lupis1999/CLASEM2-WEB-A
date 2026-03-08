@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: white !important;
+}
+header {
+    background-color: #b60086 !important;
+    
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #efb6e9  !important;/*no es necesario pero para que se vea el cambio de color en el header y el logo, ya que el header tiene un color de fondo y el logo es un texto dentro del header, al poner el mismo color de fondo en el logo se ve como si no tuviera color de fondo, pero al poner un color diferente se ve claramente que el logo tiene un color de fondo diferente al del header.*/
+     color: white !important;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: #e61313 !important; 
+    font-size: 22px;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    background-color: aqua !important;
+}
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white !important;
+    border-radius: 2px;
+    transition: 0.3s;
+    margin: 4px 0;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: aqua !important;
+        flex-direction: column;
+        width: 200px;
+        height: calc(100vh - 70px);
+        padding-top: 20px;
+        transform: translateX(100%);
+        transition:  0.3s;
+    }
+    .nav-links.active {
+        transform: translateX(0);
+    }
+    .hamburger {
+        display: flex;
+    }
+
+   } 
