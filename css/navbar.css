@@ -36,12 +36,12 @@ header {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    background-color: aqua !important;
+    background-color: #78c6e7 !important;
 }
 .hamburger span {
     width: 25px;
     height: 3px;
-    background-color: white !important;
+    background: white !important;
     border-radius: 2px;
     transition: 0.3s;
     margin: 4px 0;
@@ -51,7 +51,7 @@ header {
         position: absolute;
         top: 70px;
         right: 0;
-        background: aqua !important;
+        background: #78c6e7 !important;
         flex-direction: column;
         width: 200px;
         height: calc(100vh - 70px);
@@ -67,3 +67,153 @@ header {
     }
 
    } 
+   .footer{
+     background-color: #b60086 !important;
+     color: white !important;
+     padding: 50px 20px 20 px;
+    }
+    .footer-container {
+        background-color: #b60086 !important;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap; 
+    }
+    .footer-section {
+        flex: 1;
+        min-width: 200px;
+        background-color: #b60086 !important;
+    }
+    .footer-section h2, .footer-section h3 {
+        color: white;
+        margin-bottom: 20px;
+    }
+    .footer-section p {
+        color: white  !important;
+     line-height: 1.5;
+     font-size: 14px;
+    }
+    .footer-section ul {
+        list-style: none;
+    } .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    .footer-section a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}   
+.fooyter-section a:hover {
+    color: #e61313 !important; 
+    font-size: 16px;
+}
+.footer-button{
+    border-top: 1px solid #85cbe0 !important;
+    text-align: center;
+    margin-top: 20px;
+    color: white !important;
+    font-size: 14px;
+    background-color:#85cbe0 !important; ;
+} 
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        max-width: 400px;
+        text-align: center;
+    }
+}
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   z-index: 9999;
+   padding: 15px;
+   display: flex;
+   justify-content: center; 
+   pointer-events: none; 
+
+
+
+    background-color: #ee89d3da!important;
+    color: white !important;
+    
+}
+.cookie-content {
+    width: min(1100px, 100%);
+    pointer-events: auto;
+    background-color: #ee89d3da;
+    color: white !important;
+    border: 1px solid #ee89d3da;
+    border-radius: 15px;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+.cookie-content p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+}
+.cookie-link {
+    text-decoration: underline;
+    color: wheat !important;
+    margin-left: 6px;
+
+}
+.cookie-action {
+   display: flex;
+   gap: 10px;
+   flex-shrink: 0;
+   background-color: #ee89d3da;
+
+}
+.cookie-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+.cookie-btn:active {
+transform: scale(.95);
+}
+
+.cookie-btn-primary {
+    background-color: #85cbe0 !important;
+    color: #111;
+}
+.cookie-btn-ghost {
+    background-color: transparent;
+    color: #f5694d !important;
+    border: 1px solid #ef4a4a !important;
+}
+.cookie-btn-ghost:hover {
+    background-color: #ef4a4a !important;
+    color: white !important;
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .cookie-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .cookie-action {
+        width: 100%;
+        
+    }
+        .cookie-btn {
+        width: 100%;
+     
+    }
+}

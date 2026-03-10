@@ -32,7 +32,8 @@
                 <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
                 <li><a href="#pseudo_clase">Pseudo-clases</a></li>
                 <li><a href="#card">card</a></li>
-                <li><a href="#flexbox.html">Flexbox</a></li>
+                <li><a href="flexbox.html">Flexbox</a></li>
+                <li><a href="flexbox2.html"></a>Alinear y centrar en Flexbox</li>
           </ul>
           <div class="hamburger">
                <span></span>
@@ -41,94 +42,143 @@
           </div>
      </nav>
 </header>
+     <main>
+          <h1 class="letras-libreta-rayadas">Desarrollo de fundamentos web</h1>
+          <p>En este cursos, aprenderaste conceptos básicos de desarrollo web, incluyendo html css y javascripts</p>
+     
+     
+          <!--Forma 3 de agregar css-->
+          <h2 style="color:#6a994e; font-size: 50px;">Temas del Curso</h2>
+          <ul>
+          <li><a href="#selector_basico">Selectores Basicos</a></li>
+          <li><a href="#selectores_universal_combinaciones">Selectores Universal y Combinaciones</a></li>
+               <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
+               <li><a href="#pseudo_clase">Pseudo-clases</a></li>
+               <li><a href="#card">card</a></li>
+               <li><a href="flexbox.html">Flexbox</a></li>
+               <li><a href="flexbox2.html"></a>Alinear y centrar en Flexbox</li>
+          </ul>
+          <section id="selector_basico">
+               <h2>Selectores basicos</h2>
+               <p>Los selectores básicos en CSS permiten seleccionar elementos HTML para aplicarles estilos.</p>
+               <ul>
+                    <li><strong>Selector de tipo:(etiqueta)</strong>selecciona elementos por su nombre de etiqueta. Ejemplo: <code>p</code>para seleccionar todos los párrafos.</li>
+                    <li><strong>Selector de clase:</strong>selecciona elementos por su atributo de clase. Ejemplo: <code>.mi-clase</code>para selecionar todos los elementos con la clase ¨mi-clase¨.</li>
+                    <li><strong>Selector de ID:</strong> selecciona un elemento único por su atributo de ID. Ejemplo: <code>#mi-id</code>para seleccionar todos los elementos con el ID "mi-id".</li>
+               </ul>
+               <h3>Ejemplos:</h3>
+               <p>Ejemplo de selector de tipo:</p>
+               <p class="class_selector">Ejemplo de selector de clase</p>
+               <p id="id_selector">Ejemplo de selector de ID</p>
+          </section>
+          <section id="selectores_universal_combinaciones">
+               <h2>Selector universal y combinaciones</h2>
+               <p>El selector universal (*) selecciona todos los elementos en la página.<strong>Ejemplos</strong> Incluyen: * { margin: 0; padding: 0; }</p>
+               <p>Los selectores combinados permiten seleccionar elementos basados en su relación con otros elementos. Ejemplo: div p { color: red; } (selecciona todos los párrafos dentro de un div)</p>
+               <ul>
+                    <li><strong>selector universal:</strong>selecciona todos los elementos por ejemplo,<code>*</code>.</li>
+                    <li><strong>selectores de hijos:</strong>selecciona elementos hijos directos de otro elemento. Ejemplo: <code>div > p</code>.</li>
+                    <li><strong>selectores de descendientes:</strong>selecciona elementos descendientes de otro elemento. Ejemplo: <code>div p</code>.</li>
+               </ul>
+          </section>
 
-
-    <h1 class="letras-libreta-rayadas">Desarrollo de fundamentos web</h1>
-    <p>En este cursos, aprenderaste conceptos básicos de desarrollo web, incluyendo html css y javascripts</p>
-   
-   
-    <!--Forma 3 de agregar css-->
-    <h2 style="color:#6a994e; font-size: 50px;">Temas del Curso</h2>
-     <ul>
-         <li><a href="#selector_basico">Selectores Basicos</a></li>
-         <li><a href="#selectores_universal_combinaciones">Selectores Universal y Combinaciones</a></li>
-          <li><a href="#display_tipos_de_cajas">Display y tipos de cajas</a></li>
-          <li><a href="#pseudo_clase">Pseudo-clases</a></li>
-          <li><a href="#card">card</a></li>
-          <li><a href="#flexbox.html">Flexbox</a></li>
-          <li><a href="#flexbox2.html"></a>Alinear y centrar en Flexbox</li>
-     </ul>
-     <section id="selector_basico">
-          <h2>Selectores basicos</h2>
-          <p>Los selectores básicos en CSS permiten seleccionar elementos HTML para aplicarles estilos.</p>
-          <ul>
-               <li><strong>Selector de tipo:(etiqueta)</strong>selecciona elementos por su nombre de etiqueta. Ejemplo: <code>p</code>para seleccionar todos los párrafos.</li>
-               <li><strong>Selector de clase:</strong>selecciona elementos por su atributo de clase. Ejemplo: <code>.mi-clase</code>para selecionar todos los elementos con la clase ¨mi-clase¨.</li>
-               <li><strong>Selector de ID:</strong> selecciona un elemento único por su atributo de ID. Ejemplo: <code>#mi-id</code>para seleccionar todos los elementos con el ID "mi-id".</li>
-          </ul>
-          <h3>Ejemplos:</h3>
-          <p>Ejemplo de selector de tipo:</p>
-          <p class="class_selector">Ejemplo de selector de clase</p>
-          <p id="id_selector">Ejemplo de selector de ID</p>
-     </section>
-     <section id="selectores_universal_combinaciones">
-          <h2>Selector universal y combinaciones</h2>
-          <p>El selector universal (*) selecciona todos los elementos en la página.<strong>Ejemplos</strong> Incluyen: * { margin: 0; padding: 0; }</p>
-          <p>Los selectores combinados permiten seleccionar elementos basados en su relación con otros elementos. Ejemplo: div p { color: red; } (selecciona todos los párrafos dentro de un div)</p>
-          <ul>
-               <li><strong>selector universal:</strong>selecciona todos los elementos por ejemplo,<code>*</code>.</li>
-               <li><strong>selectores de hijos:</strong>selecciona elementos hijos directos de otro elemento. Ejemplo: <code>div > p</code>.</li>
-               <li><strong>selectores de descendientes:</strong>selecciona elementos descendientes de otro elemento. Ejemplo: <code>div p</code>.</li>
-          </ul>
-     </section>
-
-     <section id="display_tipos_de_cajas">
-          <h2>Display y tipos de cajas</h2>
-          <p>El atributo display define cómo se comporta un elemento en el layout de la página.</p>
-          <ul>
-               <li><strong>block</strong>: elementos que ocupan todo el ancho disponible.</li>
-               <li><strong>inline</strong>: elementos que se colocan uno al lado del otro.</li>
-               <li><strong>inline-block</strong>: elementos que se comportan como inline pero pueden tener dimensiones.</li>
-          </ul>
-          <h3>Ejemplos</h3>
-          <div class="display_block">Este es un elemento de tipo block</div>
-          <span class="display_inline">Este es un elemento de tipo inline</span>
-          <div class="display_inline-block">Este es un elemento de tipo inline-block</div>
-          <div class="display_inline-block_2">Este es un elemento de tipo inline-block</div>
-          <div class="display_block">Este es un elemento de tipo block</div>
-          
-     </section>
-     <section id="pseudo_clase">
-          <h2>Pseudo-clases</h2>
-          <p>Las pseudo-clases son selectores que permiten aplicar estilos a elementos en ciertos estados.</p>
-          <ul>
-               <li><strong>:hover</strong>: aplica estilos cuando el usuario pasa el cursor sobre un elemento.</li>
-               <li><strong>:focus</strong>: aplica estilos cuando un elemento tiene el foco (por ejemplo, un campo de entrada).</li>
-               <li><strong>:active</strong>: aplica estilos cuando un elemento está activo (por ejemplo, al hacer clic en un botón).</li>
-          </ul>
-          <h3>Ejemplos de uso:</h3>
-          <button class="pseudo_hover">ejemplo de pseudo-clase :hover</button>
-          <label for="input-focus">Etiqueta para campo de entrada</label>
-          <input type="text" id="input-focus" class="pseudo_focus" placeholder="ejemplo de pseudo-clase :focus">
-          <button class="pseudo_active">ejemplo de pseudo-clase :active</button>
-     </section>
-     <section id="card">
-          <h2>Cards</h2>
-          <p>Los cards son elementos de diseño que contienen información y se utilizan comúnmente en interfaces de usuario.</p>
-          <div class="card">
-               <img src="img/paisaje.jpg" alt="paisaje area verde" class="card_image" >
-               <div class="card-body ">
-                    <h2 class="letras-libreta-rayadas" style="color: deeppink;">imagen paisaje</h2>
-                    <p>Esta es una imagen de un paisaje con area verde y cielo azul</p>
-                    <button class="card-button" onclick="alert('Ver más')">Ver mas</button>
-               </div>
-                    <div class="whatsapp">
-                     <img src="img/whatsapp.gif" alt="whatsapp" class="whatsapp_image">
+          <section id="display_tipos_de_cajas">
+               <h2>Display y tipos de cajas</h2>
+               <p>El atributo display define cómo se comporta un elemento en el layout de la página.</p>
+               <ul>
+                    <li><strong>block</strong>: elementos que ocupan todo el ancho disponible.</li>
+                    <li><strong>inline</strong>: elementos que se colocan uno al lado del otro.</li>
+                    <li><strong>inline-block</strong>: elementos que se comportan como inline pero pueden tener dimensiones.</li>
+               </ul>
+               <h3>Ejemplos</h3>
+               <div class="display_block">Este es un elemento de tipo block</div>
+               <span class="display_inline">Este es un elemento de tipo inline</span>
+               <div class="display_inline-block">Este es un elemento de tipo inline-block</div>
+               <div class="display_inline-block_2">Este es un elemento de tipo inline-block</div>
+               <div class="display_block">Este es un elemento de tipo block</div>
+               
+          </section>
+          <section id="pseudo_clase">
+               <h2>Pseudo-clases</h2>
+               <p>Las pseudo-clases son selectores que permiten aplicar estilos a elementos en ciertos estados.</p>
+               <ul>
+                    <li><strong>:hover</strong>: aplica estilos cuando el usuario pasa el cursor sobre un elemento.</li>
+                    <li><strong>:focus</strong>: aplica estilos cuando un elemento tiene el foco (por ejemplo, un campo de entrada).</li>
+                    <li><strong>:active</strong>: aplica estilos cuando un elemento está activo (por ejemplo, al hacer clic en un botón).</li>
+               </ul>
+               <h3>Ejemplos de uso:</h3>
+               <button class="pseudo_hover">ejemplo de pseudo-clase :hover</button>
+               <label for="input-focus">Etiqueta para campo de entrada</label>
+               <input type="text" id="input-focus" class="pseudo_focus" placeholder="ejemplo de pseudo-clase :focus">
+               <button class="pseudo_active">ejemplo de pseudo-clase :active</button>
+               </section>
+               <section id="card">
+               <h2>Cards</h2>
+               <p>Los cards son elementos de diseño que contienen información y se utilizan comúnmente en interfaces de usuario.</p>
+               <div class="card">
+                    <img src="img/paisaje.jpg" alt="paisaje area verde" class="card_image" >
+                    <div class="card-body ">
+                         <h2 class="letras-libreta-rayadas" style="color: deeppink;">imagen paisaje</h2>
+                         <p>Esta es una imagen de un paisaje con area verde y cielo azul</p>
+                         <button class="card-button" onclick="alert('Ver más')">Ver mas</button>
                     </div>
+                         <div class="whatsapp">
+                         <img src="img/whatsapp.gif" alt="whatsapp" class="whatsapp_image">
+                         </div>
+               </div>
+          </section> 
+     </main>
+      <!--Cookie Banner-->
+      <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-live="cookie-banner">
+          <div class="cooki-content">
+               <p>Este sitio utiliza cookies para mejorar la experiencia del usuario.</p>
+               <a href="#" class="cookie-link">Ver politica</a>
+
+               <div class="cookie-action">
+                    <button class="cookie-btn cookie-btn-ghost" id="cookieReject">Rechazar</button>
+                    <button class="cookie-btn cookie-btn-primary" id="cookieAccept">Aceptar</button>
+               </div>
           </div>
-     </section>
-   </main>
-   <script src="js/scritps.js"></script>
+      </div>
+     
+
+          <footer class="footer">
+               <div class="footer-container">
+                    <div class="footer-section">
+                         <h2 class="logo">Def.v</h2>
+                         <p>descripcion</p>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Empresa</h3>
+                         <ul>
+                              <li><a href="#">Acerca de nosotros</a></li>
+                              <li><a href="#">Contacto</a></li>
+                              <li><a href="#">Trabaja con nosotros</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Redes Sociales</h3>
+                         <ul>
+                              <li><a href="#">Facebook</a></li>
+                              <li><a href="#">Twitter</a></li>
+                              <li><a href="#">Instagram</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Contacto</h3>
+                         <ul>
+                              <li><a href="mailto:info@empresa.com">correo electrónico</a></li>
+                              <li><a href="tel:+521234567890">teléfono</a></li>
+                              <li><a href="#">Dirección</a></li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="footer-button">
+                    <p>&copy; 2023 Empresa. Todos los derechos reservados.</p>
+               </div>
+          </footer>
+
+          <script src="js/scritps.js"></script>
      
 
 </body>
